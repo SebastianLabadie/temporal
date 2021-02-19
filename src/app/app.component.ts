@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
+import { I18nServiceService } from './core/services/i18n/i18n-service.service';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: '<router-outlet></router-outlet>',
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'erp-trabajo';
 }
